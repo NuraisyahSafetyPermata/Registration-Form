@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(concert2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    color: rgb(217, 228, 96);
+}
+p, label{
+    color: rgb(255, 255, 255);
+}
+
+label{
+    font-family: 'Lucida Sans Unicode';
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    font-family: sans-serif;
+    color: rgb(171, 150, 150);
+    background-color: rgb(25, 24, 24);
+}
+
+small{
+    color: rgb(203, 5, 61);
+}
+
+footer{
+    text-align: center;
+    padding: 1rem 0 1rem;
+    margin-top: 1rem;
+}
+
+
+footer .credit{
+    font-size: 0.8rem;
+}
+
+footer .credit a{
+    color: aliceblue;
+    font-weight: 700;
+}

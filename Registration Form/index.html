@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1 class="text-left fw-bold font-sans-serif">Hello Music Loverss...</h1>
+          <p class="fs-6 fw-bold font-family-sans-serif">2023 will be the biggest year of the music festival in Indonesia. 
+              There will be a lot of international and national musicians 
+              who will promote a music festival in Indonesia, right in Gelora 
+              Bung Karno Stadium. REGISTER NOW!!
+          </p>
+      </div>
+      <h2 class="fs-5 alert alert-white text-center mt-3">Registration Form for Concert Audience at Gelora Bung Karno Stadium, 2023</h2>
+      <form>
+        <!--NAMA-->
+        <div class="form-group">
+          <label class="fst-italic">Name</label>
+          <input type="text" name="name" class="form-control" placeholder="Your Full Name">
+        </div><br>
+        <!--TANGGAL LAHIR-->
+        <div class="form-group">
+          <label class="fst-italic">Date of Birth</label>
+          <input type="date" name="dob" class="form-control">
+        </div><br>
+        <!--JENIS KELAMIN-->
+        <div class="form-group">
+          <label class="fst-italic">Gender</label><br>
+          <div class="form-check-inline">
+            <div class="col-md-6">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" value="male" placeholder="gender">
+                <label class="form-check-label" for="gender">Male</label>
+              </div> 
+            <div class="col-md-6">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" value="female" placeholder="gender">
+                <label class="form-check-label" for="gender">Female</label>
+              </div>
+            </div>
+          </div>
+        </div><br> <br>
+        <!--EMAIL-->
+        <div class="form-group">
+          <label class="fst-italic">Email</label>
+          <input type="email" name="email" class="form-control" placeholder="Your Email">
+        </div><br>
+        <!--PASSWORD-->
+        <div class="form-group">
+          <label class="fst-italic">Password</label>
+          <input type="password" name="password" class="form-control" placeholder="Your Password">
+          <small> *please enter your password of at least 10 caracters</small>
+        </div><br>
+        <!--NOMOR TELEPON-->
+        <div class="form-group">
+          <label class="fst-italic">Phone Number</label>
+          <input type="number" name="phone" class="form-control" placeholder="Your Phone Number">
+        </div><br>
+        <!--ASAL KOTA DAN PROVINSI-->
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label class="fst-italic">City</label>
+              <input type="text" name="city" class="form-control" placeholder="City of Origin">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label class="fst-italic">Province</label>
+              <input type="text" name="province" class="form-control" placeholder="Province of Origin">
+            </div>
+          </div>
+        </div><br>
+        <!--ALAMAT TINGGAL-->
+        <div class="form-group">
+          <label class="fst-italic">Address</label>
+          <textarea class="form-control" rows="3" placeholder="Your Full Address"></textarea>
+        </div><br>
+        <!--PILIHAN ARTIS ATAU BAND-->
+        <div class="form-group">
+          <label class="fst-italic">Artist/Band</label>
+          <div class="col-md-20">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Select your Artist/Band</option>
+                <option value="1">Coldplay: Music of The Spheres World Tour</option>
+                <option value="2">BLACKPINK: BORN PINK World Tour 2023</option>
+                <option value="3">The 1975: At Their Very Best</option>
+                <option value="4">Taylor Swift: The Eras Tour</option>
+                <option value="5">One Direction: On The Road Again Tour 2023</option>
+                <option value="6">Artic Monkeys: Asia Tour 2023</option>
+                <option value="7">Westlife: The Wild Dreams Tour</option>
+                <option value="8">RAISA: Raisa Live in Concert</option>
+                <option value="9">TULUS: Tur Manusia</option>
+                <option value="10">Sheila on 7: Tunggu Aku di Jakarta</option>
+            </select>
+        </div><br>
+        <!--PILIHAN TEMPAT DUDUK DAN HARGA-->
+        <div class="form-group">
+          <label class="fst-italic">Seat and Price</label>
+          <div class="col-md-20">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Select your seat</option>
+                <option value="1">ULTIMATE EXPERIENCE (CAT 1): IDR 11.000.000</option>
+                <option value="2">MY UNIVERSE (FESTIVAL): IDR 5.700.000</option>
+                <option value="3">CAT 1 (NUMBERED SEATING): IDR 5.000.000</option>
+                <option value="4">CAT 2 (NUMBERED SEATING): IDR 4.000.000</option>
+                <option value="5">FESTIVAL (FREE STANDING): IDR 3.500.000</option>
+                <option value="6">CAT 3 (NUMBERED SEATING): IDR 3.250.000</option>
+                <option value="7">CAT 4 (NUMBERED SEATING): IDR 2.500.000</option>
+                <option value="8">CAT 5 (NUMBERED SEATING): IDR 1.750.000</option>
+                <option value="9">CAT 6 (NUMBERED SEATING): IDR 1.250.000</option>
+                <option value="10">CAT 7 (NUMBERED SEATING): IDR 1.250.000</option>
+                <option value="11">CAT 8 (NUMBERED SEATING): IDR 800.000</option>
+            </select>
+        </div><br>
+        <!--PILIHAN TANGGAL MENONTON KONSER-->
+        <div class="form-group">
+          <label class="fst-italic">Concert Date</label>
+          <div class="col-md-20">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Select your seat</option>
+                <option value="1">January 28, 2023: Sheila on 7: Tunggu Aku di Jakarta</option>
+                <option value="2">February 25, 2023: RAISA: Raisa Live in Concert</option>
+                <option value="3">March 3, 2023: TULUS: Tur Manusia</option>
+                <option value="4">March 11, 2023: BLACKPINK: BORN PINK World Tour 2023</option>
+                <option value="5">March 18, 2023: Artic Monkeys: Asia Tour 2023</option>
+                <option value="6">April 28, 2023: One Direction: On The Road Again Tour 2023</option>
+                <option value="7">July 21-23, 2023: The 1975: At Their Very Best</option>
+                <option value="8">August 27, 2023: Taylor Swift: The Eras Tour</option>
+                <option value="9">September 29, 2023: Westlife: The Wild Dreams Tour</option>
+                <option value="10">November 17, 2023: Coldplay: Music of The Spheres World Tour</option>
+            </select>
+        </div><br>
+        <!--BUTTON REGISTER-->
+        <button type="register" class="btn btn-primary">REGISTER</button> <br> <br> <br>
+      </form>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <footer>
+          <div class="credit">
+              <p>created by <a href="">NuraisyahSafetyPermata</a>. | &copy; 2023.</p>
+          </div>
+      </footer>
+  </body>
+</html>
